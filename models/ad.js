@@ -14,6 +14,9 @@ const adSchema = new mongoose.Schema({
 	  email: { type: String, required: true }
 	},
 	condition: { type: String, required: true }
- },{ collection: 'advertisements' }); 
- 
+}, { collection: 'advertisements' });
+
+// Utworzenie indeksu na pole 'title'
+adSchema.index({ title: 'text' });
+
 module.exports = mongoose.model('Ad', adSchema);
