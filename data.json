@@ -1,0 +1,467 @@
+[
+	{
+	  "title": "Sprzedam rower górski",
+	  "description": "Używany rower górski w dobrym stanie.",
+	  "author": "Jan Kowalski",
+	  "category": "Sport",
+	  "tags": ["rower", "sport"],
+	  "price": 500,
+	  "location": "Warszawa",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "123-456-789",
+		 "email": "jan.kowalski@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam samochód",
+	  "description": "Sprzedam używany samochód w dobrym stanie.",
+	  "author": "Anna Nowak",
+	  "category": "Motoryzacja",
+	  "tags": ["samochód", "motoryzacja"],
+	  "price": 15000,
+	  "location": "Kraków",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "987-654-321",
+		 "email": "anna.nowak@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Wynajmę mieszkanie",
+	  "description": "Wynajmę mieszkanie 2-pokojowe w centrum miasta.",
+	  "author": "Marek Wiśniewski",
+	  "category": "Nieruchomości",
+	  "tags": ["mieszkanie", "wynajem"],
+	  "price": 2000,
+	  "location": "Poznań",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "321-654-987",
+		 "email": "marek.wisniewski@example.com"
+	  },
+	  "condition": "Nowe"
+	},
+	{
+	  "title": "Sprzedam laptop",
+	  "description": "Laptop używany, w dobrym stanie, idealny do pracy biurowej.",
+	  "author": "Ewa Zielińska",
+	  "category": "Elektronika",
+	  "tags": ["laptop", "komputer"],
+	  "price": 1200,
+	  "location": "Gdańsk",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "654-321-987",
+		 "email": "ewa.zielinska@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam książki",
+	  "description": "Sprzedam zestaw książek w dobrym stanie.",
+	  "author": "Piotr Nowicki",
+	  "category": "Książki",
+	  "tags": ["książki", "literatura"],
+	  "price": 100,
+	  "location": "Łódź",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "987-123-456",
+		 "email": "piotr.nowicki@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam telewizor",
+	  "description": "Telewizor LED 40 cali, w idealnym stanie.",
+	  "author": "Katarzyna Kamińska",
+	  "category": "Elektronika",
+	  "tags": ["telewizor", "elektronika"],
+	  "price": 800,
+	  "location": "Wrocław",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "456-789-123",
+		 "email": "katarzyna.kaminska@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam wózek dziecięcy",
+	  "description": "Wózek dziecięcy, używany, w dobrym stanie.",
+	  "author": "Adam Wiśniewski",
+	  "category": "Dla dzieci",
+	  "tags": ["wózek", "dzieci"],
+	  "price": 300,
+	  "location": "Szczecin",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "789-456-123",
+		 "email": "adam.wisniewski@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam gitarę elektryczną",
+	  "description": "Gitara elektryczna, mało używana, w idealnym stanie.",
+	  "author": "Jacek Wójcik",
+	  "category": "Muzyka",
+	  "tags": ["gitara", "muzyka"],
+	  "price": 1500,
+	  "location": "Bydgoszcz",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "123-789-456",
+		 "email": "jacek.wojcik@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam smartfon",
+	  "description": "Smartfon używany, w dobrym stanie, działa bez zarzutu.",
+	  "author": "Alicja Kwiatkowska",
+	  "category": "Elektronika",
+	  "tags": ["smartfon", "elektronika"],
+	  "price": 600,
+	  "location": "Lublin",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "321-987-654",
+		 "email": "alicja.kwiatkowska@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam drukarkę",
+	  "description": "Drukarka laserowa, używana, w dobrym stanie.",
+	  "author": "Tomasz Mazur",
+	  "category": "Elektronika",
+	  "tags": ["drukarka", "elektronika"],
+	  "price": 200,
+	  "location": "Katowice",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "456-123-789",
+		 "email": "tomasz.mazur@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam meble",
+	  "description": "Zestaw mebli do salonu, w bardzo dobrym stanie.",
+	  "author": "Magdalena Lewandowska",
+	  "category": "Dom",
+	  "tags": ["meble", "dom"],
+	  "price": 2500,
+	  "location": "Toruń",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "654-789-321",
+		 "email": "magdalena.lewandowska@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam kanapę",
+	  "description": "Kanapa 3-osobowa, w dobrym stanie.",
+	  "author": "Robert Szymański",
+	  "category": "Dom",
+	  "tags": ["kanapa", "dom"],
+	  "price": 700,
+	  "location": "Opole",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "789-123-456",
+		 "email": "robert.szymanski@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam rower szosowy",
+	  "description": "Rower szosowy, mało używany, w idealnym stanie.",
+	  "author": "Natalia Pawlak",
+	  "category": "Sport",
+	  "tags": ["rower", "sport"],
+	  "price": 1000,
+	  "location": "Gdynia",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "321-654-987",
+		 "email": "natalia.pawlak@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam skuter",
+	  "description": "Skuter, mało używany, w dobrym stanie.",
+	  "author": "Karol Michalski",
+	  "category": "Motoryzacja",
+	  "tags": ["skuter", "motoryzacja"],
+	  "price": 2500,
+	  "location": "Rzeszów",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "987-654-321",
+		 "email": "karol.michalski@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam aparat fotograficzny",
+	  "description": "Aparat fotograficzny, używany, w dobrym stanie.",
+	  "author": "Agnieszka Dudek",
+	  "category": "Elektronika",
+	  "tags": ["aparat", "elektronika"],
+	  "price": 700,
+	  "location": "Kielce",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "654-321-987",
+		 "email": "agnieszka.dudek@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam lodówkę",
+	  "description": "Lodówka, używana, w dobrym stanie.",
+	  "author": "Michał Wesołowski",
+	  "category": "AGD",
+	  "tags": ["lodówka", "AGD"],
+	  "price": 800,
+	  "location": "Gorzów Wielkopolski",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "123-456-789",
+		 "email": "michal.wesolowski@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam rower dziecięcy",
+	  "description": "Rower dziecięcy, używany, w dobrym stanie.",
+	  "author": "Dorota Malinowska",
+	  "category": "Sport",
+	  "tags": ["rower", "dzieci"],
+	  "price": 200,
+	  "location": "Białystok",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "789-123-456",
+		 "email": "dorota.malinowska@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam telewizor LCD",
+	  "description": "Telewizor LCD 32 cale, w bardzo dobrym stanie.",
+	  "author": "Bartłomiej Jankowski",
+	  "category": "Elektronika",
+	  "tags": ["telewizor", "elektronika"],
+	  "price": 400,
+	  "location": "Radom",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "456-789-123",
+		 "email": "bartlomiej.jankowski@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam drukarkę atramentową",
+	  "description": "Drukarka atramentowa, używana, w dobrym stanie.",
+	  "author": "Izabela Wojciechowska",
+	  "category": "Elektronika",
+	  "tags": ["drukarka", "elektronika"],
+	  "price": 150,
+	  "location": "Zielona Góra",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "654-789-321",
+		 "email": "izabela.wojciechowska@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam biurko",
+	  "description": "Biurko, używane, w dobrym stanie.",
+	  "author": "Łukasz Jabłoński",
+	  "category": "Meble",
+	  "tags": ["biurko", "meble"],
+	  "price": 250,
+	  "location": "Gliwice",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "987-654-321",
+		 "email": "lukasz.jablonski@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam gitarę klasyczną",
+	  "description": "Gitara klasyczna, mało używana, w bardzo dobrym stanie.",
+	  "author": "Maria Król",
+	  "category": "Muzyka",
+	  "tags": ["gitara", "muzyka"],
+	  "price": 350,
+	  "location": "Sopot",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "123-456-789",
+		 "email": "maria.krol@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam pralkę",
+	  "description": "Pralka, używana, w dobrym stanie.",
+	  "author": "Marta Walczak",
+	  "category": "AGD",
+	  "tags": ["pralka", "AGD"],
+	  "price": 400,
+	  "location": "Rybnik",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "789-123-456",
+		 "email": "marta.walczak@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam fotel biurowy",
+	  "description": "Fotel biurowy, używany, w bardzo dobrym stanie.",
+	  "author": "Janusz Kaczmarek",
+	  "category": "Meble",
+	  "tags": ["fotel", "meble"],
+	  "price": 150,
+	  "location": "Gdynia",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "123-456-789",
+		 "email": "janusz.kaczmarek@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam smart TV",
+	  "description": "Smart TV 50 cali, używany, w idealnym stanie.",
+	  "author": "Zofia Kowalczyk",
+	  "category": "Elektronika",
+	  "tags": ["telewizor", "elektronika"],
+	  "price": 1500,
+	  "location": "Gdańsk",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "987-654-321",
+		 "email": "zofia.kowalczyk@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam laptop gamingowy",
+	  "description": "Laptop gamingowy, używany, w bardzo dobrym stanie.",
+	  "author": "Krzysztof Wojciechowski",
+	  "category": "Elektronika",
+	  "tags": ["laptop", "gaming"],
+	  "price": 3000,
+	  "location": "Koszalin",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "123-789-456",
+		 "email": "krzysztof.wojciechowski@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam mikrofalówkę",
+	  "description": "Mikrofalówka, używana, w dobrym stanie.",
+	  "author": "Paweł Adamski",
+	  "category": "AGD",
+	  "tags": ["mikrofalówka", "AGD"],
+	  "price": 200,
+	  "location": "Olsztyn",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "654-321-987",
+		 "email": "pawel.adamski@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam rower elektryczny",
+	  "description": "Rower elektryczny, używany, w bardzo dobrym stanie.",
+	  "author": "Weronika Piotrowska",
+	  "category": "Sport",
+	  "tags": ["rower", "elektryczny"],
+	  "price": 2500,
+	  "location": "Bydgoszcz",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "123-654-987",
+		 "email": "weronika.piotrowska@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam kosiarkę",
+	  "description": "Kosiarka elektryczna, używana, w dobrym stanie.",
+	  "author": "Joanna Czarnecka",
+	  "category": "Ogród",
+	  "tags": ["kosiarka", "ogród"],
+	  "price": 300,
+	  "location": "Legnica",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "789-456-123",
+		 "email": "joanna.czarnecka@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam konsolę do gier",
+	  "description": "Konsola do gier, używana, w bardzo dobrym stanie.",
+	  "author": "Maciej Włodarczyk",
+	  "category": "Elektronika",
+	  "tags": ["konsola", "gry"],
+	  "price": 900,
+	  "location": "Częstochowa",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "321-654-987",
+		 "email": "maciej.wlodarczyk@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam rolki",
+	  "description": "Rolki, mało używane, w bardzo dobrym stanie.",
+	  "author": "Natalia Król",
+	  "category": "Sport",
+	  "tags": ["rolki", "sport"],
+	  "price": 150,
+	  "location": "Rzeszów",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "987-123-456",
+		 "email": "natalia.krol@example.com"
+	  },
+	  "condition": "Używany"
+	},
+	{
+	  "title": "Sprzedam deskę snowboardową",
+	  "description": "Deska snowboardowa, używana, w dobrym stanie.",
+	  "author": "Marta Kamińska",
+	  "category": "Sport",
+	  "tags": ["deska", "snowboard"],
+	  "price": 400,
+	  "location": "Kraków",
+	  "dateAdded": "2024-06-27T12:34:56Z",
+	  "contact": {
+		 "phone": "654-123-789",
+		 "email": "marta.kaminska@example.com"
+	  },
+	  "condition": "Używany"
+	}
+ ]
