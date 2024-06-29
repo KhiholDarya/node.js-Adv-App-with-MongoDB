@@ -1,4 +1,5 @@
 const Ad = require('../models/ad');
+const { query } = require('express');
 
 exports.getAllAds = async (req, res) => {
   try {
@@ -7,6 +8,50 @@ exports.getAllAds = async (req, res) => {
   } catch (err) {
     res.status(500).send(err.message);
   }
+};
+
+exports.searchAds = async (req, res) => {
+	try {
+		 let query = {};
+
+		 // Przykład: Wyszukiwanie po tytule
+		 if (req.query.title) {
+			  query.title = { $regex: new RegExp(req.query.title, 'i') };
+		 }
+
+		 // Przykład: Wyszukiwanie po kategorii
+		 if (req.query.category) {
+			  query.category = req.query.category;
+		 }
+
+		 // Przykład: Wyszukiwanie po tagach
+		 if (req.query.tags) {
+			  query.tags = { $in: req.query.tags.split(',') };
+		 }
+
+		 // Przykład: Wyszukiwanie po cenie w określonym zakresie
+		 if (req.query.minPrice && req.query.maxPrice) {
+			  query.price = { $gte: req.query.minPrice, $lte: req.query.maxPrice };
+		 } else if (req.query.minPrice) {
+			  query.price = { $gte: req.query.minPrice };
+		 } else if (req.query.maxPrice) {
+			  query.price = { $lte: req.query.maxPrice };
+		 }
+
+		 // Przykład: Wyszukiwanie po dacie dodania w określonym zakresie
+		 if (req.query.fromDate && req.query.toDate) {
+			  query.dateAdded = { $gte: new Date(req.query.fromDate), $lte: new Date(req.query.toDate) };
+		 } else if (req.query.fromDate) {
+			  query.dateAdded = { $gte: new Date(req.query.fromDate) };
+		 } else if (req.query.toDate) {
+			  query.dateAdded = { $lte: new Date(req.query.toDate) };
+		 }
+
+		 const ads = await Ad.find(query);
+		 res.json(ads);
+	} catch (err) {
+		 res.status(500).send(err.message);
+	}
 };
 
 exports.createAd = async (req, res) => {
