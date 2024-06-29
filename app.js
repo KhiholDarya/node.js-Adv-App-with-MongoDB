@@ -2,7 +2,6 @@ const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const adsRoutes = require('./routes/ads');
-const { logRequest } = require('./utils/logger');
 const path = require('path');
 const { format } = require('date-fns');
 
